@@ -1,0 +1,2 @@
+export const Card = ({ children, ...props }) => <div {...props} className={`bg-white rounded-2xl shadow p-4 ${props.className || ''}`}>{children}</div>;
+export const CardContent = ({ children }) => <div>{children}</div>;
